@@ -1,0 +1,8 @@
+db.currencyUsers.findOne(
+     {login: "Alex"},
+     {currencyDetails: 1}
+)
+
+
+
+
